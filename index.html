@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./assets/style/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+    <script src="./assets/js/app.js"> </script>
+    <meta charset="UTF-8">
+    <title>Super cool & unique to do list</title>
+</head>
+
+<body ng-app="ultraCoolToDoList">
+    <div class="container">
+        <div class="container--center">
+            <h2> ToDo List</h2> <br>
+            <div ng-controller="addToDo as $ctrl">
+                <input type="text" ng-model="$ctrl.newToDo" ng-keypress="$ctrl.saveToDo($event)" placeholder="Add a to do...">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

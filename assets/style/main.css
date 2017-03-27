@@ -1,0 +1,28 @@
+body
+{
+    background-color: #F4F4F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: left;
+    padding: 20 0;
+} 
+
+input[type="text"]{
+    border:none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: slategray solid 1px;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container--center{
+    min-width: 500px;
+}
